@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">TheNews</string>
+    <string name="loremData">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam aliquid beatae cum cupiditate delectus dolores eos fuga nesciunt, quaerat sint tempore vel, velit? Accusamus, animi aspernatur consequatur in laboriosam sunt!</string>
+    <string name="begin_date">Begin Date</string>
+    <string name="sort_order">Sort Order</string>
+    <string name="new_desk_value">New Desk Value</string>
+    <string-array name="sort">
+        <item>newest</item>
+        <item>oldest</item>
+    </string-array>
+</resources>

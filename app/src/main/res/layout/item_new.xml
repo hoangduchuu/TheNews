@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="4dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:layout_width="159dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="159dp">
+
+        <ImageView
+            android:adjustViewBounds="true"
+            android:scaleType="fitCenter"
+            tools:src="@drawable/hqdefault"
+            android:src="@drawable/hqdefault"
+            android:id="@+id/ivImg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="@string/loremData"
+            android:id="@+id/tvSnippet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="@string/loremData"/>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
