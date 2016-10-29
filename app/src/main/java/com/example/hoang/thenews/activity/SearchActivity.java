@@ -54,7 +54,6 @@ public class SearchActivity extends AppCompatActivity {
         adapter = new ArticleAdapter(getApplicationContext(), R.layout.view_layout, mShowsList);
         searchButton();
         webViewActicle();
-        loadmore();git config --get remote.origin.url
 
     }
 
