@@ -6,14 +6,11 @@ package com.example.hoang.thenews.Api;
 
 import com.example.hoang.thenews.model.Articles;
 
-import java.util.Map;
-
 import retrofit2.Call;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.http.GET;
 import retrofit2.http.Query;
-import retrofit2.http.QueryMap;
 
 /**
  * Created by hoang on 10/18/2016.
@@ -23,7 +20,7 @@ public interface ArticleApi {
     final String BASE_URL = "http://api.nytimes.com/svc/search/v2/";
 
     @GET(BASE_URL + "articlesearch.json" )
-    Call<Articles> getArticle(@Query("q") String yourSearch, @Query("page") String curentPage, @Query("api-key") String yourApi);
+    Call<Articles> getArticle(@Query("q") String yourSearch, @Query("page") int curentPage, @Query("api-key") String yourApi);
 
     class Factory {
         private static ArticleApi service;
